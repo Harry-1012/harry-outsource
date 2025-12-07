@@ -1,0 +1,248 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>🧑‍💻服务 | 👋Harry外包开发作品展示</title><meta name="author" content="Harry"><meta name="copyright" content="Harry"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><script src="/outsource/js/allpost_data.js"></script><meta name="description" content="Hi,欢迎关注Harry Work💻 我们是一家专门承接小游戏&#x2F;小程序&#x2F;H5&#x2F;公众号&#x2F;App开发的小型工作室,我们不仅“高产”,而且“精炼”;我们谈得了“情怀”,也秀得出案例 我们大部分客户为中小型创业公司,根据客户自身实际业务,量身定制App&#x2F;公众号&#x2F;小程序等,并且伴随着客户的业务增长持续更新维护应用,由此我们也积累了一批长期的">
+<meta property="og:type" content="website">
+<meta property="og:title" content="🧑‍💻服务">
+<meta property="og:url" content="https://harry-1012.github.io/outsource/about/service.html">
+<meta property="og:site_name" content="👋Harry外包开发作品展示">
+<meta property="og:description" content="Hi,欢迎关注Harry Work💻 我们是一家专门承接小游戏&#x2F;小程序&#x2F;H5&#x2F;公众号&#x2F;App开发的小型工作室,我们不仅“高产”,而且“精炼”;我们谈得了“情怀”,也秀得出案例 我们大部分客户为中小型创业公司,根据客户自身实际业务,量身定制App&#x2F;公众号&#x2F;小程序等,并且伴随着客户的业务增长持续更新维护应用,由此我们也积累了一批长期的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://harry-1012.github.io/outsource/my/cos/site/img/avatar.png">
+<meta property="article:published_time" content="2019-01-01T13:12:04.000Z">
+<meta property="article:modified_time" content="2025-12-07T12:18:01.846Z">
+<meta property="article:author" content="Harry">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://harry-1012.github.io/outsource/my/cos/site/img/avatar.png"><link rel="shortcut icon" href="https://harry-1012.github.io/outsource/my/cos/site/img/favicon.ico"><link rel="canonical" href="https://harry-1012.github.io/outsource/about/service.html"><link rel="preconnect"/><link rel="stylesheet" href="/outsource/css/index.css"><link rel="stylesheet" href="/outsource/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="/outsource/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/outsource/',
+  algolia: undefined,
+  localSearch: {"path":"/outsource/search.json","preload":true,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇项目"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/outsource/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '🧑‍💻服务',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="https://harry-1012.github.io/outsource/my/theme/css/work.css"><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/outsource/atom.xml" title="👋Harry外包开发作品展示" type="application/atom+xml">
+</head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+btf.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+
+</script><link rel="stylesheet" href="/outsource/pluginsSrc/pace-js/themes/blue/pace-theme-minimal.css"/><script src="/outsource/pluginsSrc/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://harry-1012.github.io/outsource/my/cos/site/img/avatar.png" onerror="this.onerror=null;this.src='/outsource/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/outsource/archives/"><div class="headline">项目</div><div class="length-num">32</div></a><a href="/outsource/tags/"><div class="headline">标签</div><div class="length-num">21</div></a><a href="/outsource/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/outsource/"><span> 🏠案例</span></a></div><div class="menus_item"><a class="site-page" href="/outsource/about/service.html"><span> 🧑‍💻服务</span></a></div><div class="menus_item"><a class="site-page" href="/outsource/about/index.html"><span> 🤝伙伴</span></a></div><div class="menus_item"><a class="site-page" href="/outsource/contact/index.html"><span> 📬联系</span></a></div></div></div></div><div class="page type-about" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/outsource/"><span class="site-name">👋Harry外包开发作品展示</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/outsource/"><span> 🏠案例</span></a></div><div class="menus_item"><a class="site-page" href="/outsource/about/service.html"><span> 🧑‍💻服务</span></a></div><div class="menus_item"><a class="site-page" href="/outsource/about/index.html"><span> 🤝伙伴</span></a></div><div class="menus_item"><a class="site-page" href="/outsource/contact/index.html"><span> 📬联系</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">🧑‍💻服务</h1></header><main class="layout hide-aside" id="content-inner"><div id="page"><div class="page-title">🧑‍💻服务</div><div class="container" id="article-container"><img src="https://harry-1012.github.io/outsource/my/cos/site/img/site_img/top_img/banner_img.gif" style="margin:0;z-index:2;" width = "30%" align="right" />
+
+
+<p>Hi,欢迎关注Harry Work💻</p>
+<p>我们是一家专门承接小游戏&#x2F;小程序&#x2F;H5&#x2F;公众号&#x2F;App开发的小型工作室,我们不仅“高产”,而且“精炼”;我们谈得了“情怀”,也秀得出案例</p>
+<p>我们大部分客户为中小型创业公司,根据客户自身实际业务,量身定制App&#x2F;公众号&#x2F;小程序等,并且伴随着客户的业务增长持续更新维护应用,由此我们也积累了一批长期的忠实合作客户</p>
+<p>👉我们没有花哨的宣传与包装,只相信质量和口碑才是最好的宣传</p>
+<p>无论您需要什么样的应用,我们都可以提供量身定制的解决方案</p>
+<h1 id="📱"><a href="#📱" class="headerlink" title="📱"></a>📱</h1><ul>
+<li>comfyui自动化,开源Ai部署应用</li>
+<li>帮助中小公司定制Ai自动化系统</li>
+<li>办公自动化（Python + Excel + 流程RPA）等</li>
+<li>技术选型顾问（比如是否上低代码平台、是否用某种数据库）</li>
+<li>Android&#x2F;IOS App设计开发</li>
+<li>微信&#x2F;支付宝&#x2F;抖音小程序设计开发</li>
+<li>公众号&#x2F;H5设计开发</li>
+<li>Python脚本&#x2F;助手开发,浏览器插件开发&#x2F;油猴开发</li>
+<li>围绕以上相关的业务,包括不限于:域名注册,服务器购买,ICP备案,服务器部署&#x2F;优化,HTTPS部署,企业邮箱等</li>
+</ul>
+<p>感谢大家的关注和支持</p>
+<p><a href="../contact">联系我们</a></p>
+<hr>
+</div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2017 - 2025 By Harry</div><script src="/outsource/js/harry/index_showmore.js"></script></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/outsource/js/utils.js"></script><script src="/outsource/js/main.js"></script><script src="/outsource/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><div class="js-pjax"><script>(() => {
+  const abcjsInit = () => {
+    const abcjsFn = () => setTimeout(() => {
+      document.querySelectorAll(".abc-music-sheet").forEach(ele => {
+        if (ele.children.length > 0) return
+        ABCJS.renderAbc(ele, ele.innerHTML, {responsive: 'resize'})
+      })
+    }, 100)
+    
+    typeof ABCJS === 'object' ? abcjsFn()
+      : btf.getScript('/outsource/pluginsSrc/abcjs/dist/abcjs-basic-min.js').then(abcjsFn)
+  }
+
+  window.pjax ? abcjsInit() : window.addEventListener('load', abcjsInit)
+  btf.addGlobalFn('encrypt', abcjsInit, 'abcjs')
+})()</script><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = {"createIssueManually":true}
+
+  const commentCount = n => {
+    const isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+    if (isCommentCount) {
+      isCommentCount.textContent= n
+    }
+  }
+
+  const initGitalk = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGitalk = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const gitalk = new Gitalk({
+      clientID: 'ca1556ac74a78decc45e',
+      clientSecret: '25534893c034bfc2b3d2134eff7ce2de323c1951',
+      repo: 'harry_gitalk',
+      owner: 'harry-1012',
+      admin: ['harry-1012'],
+      updateCountCallback: commentCount,
+      ...option,
+      id: isShuoshuo ? path : (option && option.id) || 'b57a115907210aae55c8c5a46f08d79b'
+    })
+
+    gitalk.render('gitalk-container')
+  }
+
+  const loadGitalk = async(el, path) => {
+    if (typeof Gitalk === 'function') initGitalk(el, path)
+    else {
+      await btf.getCSS('/outsource/pluginsSrc/gitalk/dist/gitalk.css')
+      await btf.getScript('/outsource/pluginsSrc/gitalk/dist/gitalk.min.js')
+      initGitalk(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Gitalk' === 'Gitalk'
+      ? window.shuoshuoComment = { loadComment: loadGitalk }
+      : window.loadOtherComment = loadGitalk
+    return
+  }
+
+  if ('Gitalk' === 'Gitalk' || !false) {
+    if (false) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+    else loadGitalk()
+  } else {
+    window.loadOtherComment = loadGitalk
+  }
+})()</script></div><script src="https://harry-1012.github.io/outsource/my/theme/js/work.js"></script><script src="https://harry-1012.github.io/outsource/my/theme/js/common.js"></script><script src="/outsource/pluginsSrc/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="请输入要搜索的内容" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/outsource/js/search/local-search.js"></script></div></div></body></html>
